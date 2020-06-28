@@ -1,0 +1,6 @@
+print('-' * 70)
+compra = float(input('Qual o valor da compra? R$ '))
+prazo = compra + (compra * 7 / 100)
+avista = compra - (compra * 10 / 100)
+print('O valor de sua compra é R$ {:.2f}\n a vista R$ {:.2f}\n prazo R$ {:.2f}'.format(compra, avista, prazo))
+print('_' * 70)

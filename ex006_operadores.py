@@ -1,0 +1,9 @@
+n = int(input('Digite numero: '))
+n1 = int(input('Outro numero: '))
+s = n + n1
+m = n * n1
+d = n / n1
+di = n // n1
+e = n ** n1
+r = n % n1
+print('A soma é {}, multiplicação é {}, divisão é {}, divisão inteira é {}, exponenciação é {}, e o resto de divisão é {}'.format(s, m, d, di, e, r), end='')

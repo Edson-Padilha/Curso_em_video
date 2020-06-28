@@ -1,0 +1,12 @@
+d = input('Digite qualquer coisa: ')
+print(type(d))
+print('O tipo primitivo é um numero? ', d.isnumeric())
+print('Só tem espaço? ', d.isspace())
+print('É alfabético? ', d.isalpha())
+print('É somente letra minúscula', d.islower())
+print('Esta em maiúscula? ', d.isupper())
+print('E decimal? ', d.isdecimal())
+print('É alfanumérico? ', d.isalnum())
+print('Está capitalizada? ', d.istitle())#Capitalizada é letras maiuculas e minusculas ex: Edson
+print('', d.isprintable())
+print(f'Teste de formatação: {d.isidentifier()}')
